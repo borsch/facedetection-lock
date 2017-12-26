@@ -1,12 +1,12 @@
-#define SSID_WIFI "hogwarts"
-#define PASSWORD_WIFI "11234566"
+#define SSID_WIFI "ssid"
+#define PASSWORD_WIFI "password"
 #define LOCK_PIN 5
 
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
 HTTPClient http;
-String url = "http://e3109629.ngrok.io/person/enter";
+String url = "http://example.com/person/enter";
 
 void setup() {
   pinMode(LOCK_PIN, OUTPUT);
@@ -15,14 +15,11 @@ void setup() {
 
   WiFi.begin(SSID_WIFI, PASSWORD_WIFI);
 
-  // Ожидание подключения
-  Serial.println("Connecting to wifi");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
   }
   
-  Serial.println("");
   Serial.println("WiFi connected");
 }
 
