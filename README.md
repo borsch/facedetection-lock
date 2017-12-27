@@ -36,4 +36,4 @@ Connect LED:
 
 &nbsp;&nbsp;&nbsp;`+` on LED to `D1` on NodeMCU (actually this is GPIO5 in the code. `pinMode(5, OUTPUT)`)
 
-&nbsp;&nbsp;&nbsp;[NodeMCU pins](https://iotbytes.wordpress.com/nodemcu-pinout/)
+For more info about NodeMCU pins looks [here](https://iotbytes.wordpress.com/nodemcu-pinout/)
