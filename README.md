@@ -30,6 +30,8 @@ Open project in Arduino IDE. Before upload program to NodeMCU You should setup u
 in the code manually set the WiFi network SSID and password. After this You can upload Your code to board.
 Open `Tools -> Serial monitor` to see additional logs. Set baud speed to 115200 if You don't see any logs
 
+**PS: installation process mostly duplicate [this tutorial](http://zlitos.com/publ/ehlektronika/arduino_i_t_p/nodemcu_upravlenie_4_rele_iz_prilozhenija_android_po_wifi/12-1-0-27)**
+
 Connect LED: 
 
 &nbsp;&nbsp;&nbsp;`-` on LED to `GND` on NodeMCU 
